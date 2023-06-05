@@ -1,11 +1,11 @@
 #include <stdio.h>
 #include <math.h> // подключаем math.h
+#include <stdlib.h>
 int main (void) {
-    int x = 0.14;
-    float y = 0;
-    x = 3.14/2;
-    y = x + 3.14;
-    printf("%f\n", y); 
+
+    double n;
+    scanf("%lf",&n);
+    printf("%0.0lf\n", pow(2, n)); 
 
   return 0;
 }
